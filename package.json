@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "compilar": "sass assets/scss/style.scss assets/css/style.css"
+    "compilar": "sass assets/scss/style.scss assets/css/style.css",
+     "observar": "sass --watch assets/scss/style.scss assets/css/style.css"
   },
   "author": "",
   "license": "ISC",
