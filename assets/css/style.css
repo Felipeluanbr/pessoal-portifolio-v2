@@ -5,8 +5,48 @@ body {
   font-style: normal;
 }
 
-h1 {
-  font-family: "Nanum Pen Script";
+.nav__container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 74rem;
+  border-radius: 0.75rem;
+  background: #181818;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav__pages {
+  gap: 2.5rem;
+  font-family: "Inter";
+  font-size: 1rem;
+  padding: 0;
+  align-items: center;
+}
+
+.nav__logo {
+  height: 1.625rem;
+}
+
+.nav__social {
+  gap: 2.5rem;
+  font-family: "Inter";
+  font-size: 1rem;
+}
+
+.nav__pages a {
+  gap: 1.25rem;
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #C5C5C5;
 }
 
 /*# sourceMappingURL=style.css.map */
