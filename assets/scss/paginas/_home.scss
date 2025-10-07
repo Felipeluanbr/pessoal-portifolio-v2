@@ -1,6 +1,8 @@
-body    {
+body  {  
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: $black;
+    position: relative;
 }
