@@ -5,6 +5,26 @@ body {
   font-style: normal;
 }
 
+.btn-primary {
+  background-color: rgba(255, 255, 255, 0.07);
+  border: none;
+  border-radius: 0.8rem;
+  padding: 1rem 4rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  border: #0D0D0D solid 0.1rem;
+}
+.btn-primary a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -131,12 +151,6 @@ footer {
 
 .footer__social {
   flex-direction: column;
-}
-
-.btn-primary {
-  padding: 2rem 1rem;
-  background: linear-gradient(90deg, #1A1A1A, #131313 100%);
-  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
