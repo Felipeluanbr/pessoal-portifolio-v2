@@ -7,7 +7,8 @@
     padding: 1rem;
     width: 74rem;
     border-radius: 0.75rem;
-    background: $onyx;
+    background: rgb($onyx,50%);
+    // opacity: 0.4;
     margin-top: 2rem;
     border: solid 0.05rem darken($card-border, 2%);
 }
@@ -17,10 +18,18 @@ ul{
     list-style: none;
     margin: 0;
    
+   
 }
 
 a{
  text-decoration: none;
+ 
+}
+
+
+a:hover{
+  font-size: $font-size-24;
+
 }
 
 .nav__pages{
@@ -30,6 +39,7 @@ a{
     padding: 0;
     align-items: center;
 }
+
 
 .nav__logo{
     height: 1.625rem;
@@ -46,3 +56,9 @@ a{
    font-size: $font-size-18;
    color: $light-gray;
 }
+.nav__pages  a:hover{
+    font-size: $font-size-20;
+   color: $wite;
+   transition: 0.6s;
+}
+

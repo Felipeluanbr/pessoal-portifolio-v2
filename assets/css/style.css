@@ -19,7 +19,7 @@ body {
   padding: 1rem;
   width: 74rem;
   border-radius: 0.75rem;
-  background: #181818;
+  background: rgba(24, 24, 24, 0.5);
   margin-top: 2rem;
   border: solid 0.05rem rgb(50.8540540541, 49.9459459459, 49.9459459459);
 }
@@ -32,6 +32,10 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+a:hover {
+  font-size: 1.5rem;
 }
 
 .nav__pages {
@@ -57,6 +61,12 @@ a {
   font-weight: 500;
   font-size: 1.125rem;
   color: #C5C5C5;
+}
+
+.nav__pages a:hover {
+  font-size: 1.25rem;
+  color: #FFFFFF;
+  transition: 0.6s;
 }
 
 /*# sourceMappingURL=style.css.map */
