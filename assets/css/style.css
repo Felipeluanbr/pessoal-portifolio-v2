@@ -34,6 +34,11 @@ body {
   position: relative;
 }
 
+.summary {
+  margin: auto;
+  width: 74rem;
+}
+
 .nav__container {
   align-items: center;
   display: flex;
@@ -106,7 +111,6 @@ footer {
   background: rgba(128, 128, 128, 0.5);
   margin-bottom: 1rem;
   opacity: 0.3;
-  position: fixed;
   bottom: 18.5rem;
 }
 
@@ -115,7 +119,6 @@ footer {
   margin: auto;
   justify-content: space-between;
   width: 74rem;
-  position: fixed;
   bottom: 0;
   margin-bottom: 3rem;
 }
