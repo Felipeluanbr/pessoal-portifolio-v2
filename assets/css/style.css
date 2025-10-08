@@ -39,6 +39,19 @@ body {
   width: 74rem;
 }
 
+.summary__container {
+  display: flex;
+}
+
+.summary__container h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #808080;
+}
+.summary__container h1 span {
+  color: #FFFFFF;
+}
+
 .nav__container {
   align-items: center;
   display: flex;

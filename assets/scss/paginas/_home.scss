@@ -13,3 +13,19 @@ body  {
     width: 74rem;
 
 }
+
+.summary__container{
+    display: flex;
+}
+
+.summary__container h1{
+    font-size: $font-size-80;
+    font-weight: $font-weight-bold;
+    color: $dark-gray;
+
+    span{
+        color: $wite;
+    }
+}
+
+
