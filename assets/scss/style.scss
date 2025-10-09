@@ -5,8 +5,10 @@ body {
   font-style: normal;
   
 }
-@import "base/reset";
+
 @import "base/variaveis";
 @import "paginas/home";
 @import "layout/navbar";
 @import "layout/footer";
+@import "base/reset";
+@import "base/normalize";
