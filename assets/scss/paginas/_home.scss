@@ -56,6 +56,19 @@ body {
   align-items: center;
 
   .projects__container {
+    h2 {
+      font-size: $font-size-48;
+      font-weight: $font-weight-bold;
+      color: $dark-gray;
+      margin-bottom: 4rem;
+    }
+
+    .projects__cards {
+      display: flex;
+      flex-direction: column;
+      gap: 4rem;
+      margin-bottom: 6.25rem;
+    }
     .card {
       width: 74rem;
       border-radius: 2rem;
@@ -78,11 +91,25 @@ body {
         height: 14rem;
       }
 
-      .card__text a{
+      .card__text a {
         font-size: $font-size-20;
         color: $wite;
-        
       }
     }
+  }
+}
+
+.conheca {
+  width: 74rem;
+
+  .conheca__grade {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .conheca__card {
+    text-align: center;
+    height: 31.5rem;
+    background: $white-7;
   }
 }

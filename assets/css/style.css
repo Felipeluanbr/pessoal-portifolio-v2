@@ -74,6 +74,18 @@ body {
   justify-content: center;
   align-items: center;
 }
+.projects .projects__container h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #808080;
+  margin-bottom: 4rem;
+}
+.projects .projects__container .projects__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin-bottom: 6.25rem;
+}
 .projects .projects__container .card {
   width: 74rem;
   border-radius: 2rem;
@@ -97,6 +109,19 @@ body {
 .projects .projects__container .card .card__text a {
   font-size: 1.25rem;
   color: #FFFFFF;
+}
+
+.conheca {
+  width: 74rem;
+}
+.conheca .conheca__grade {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.conheca .conheca__card {
+  text-align: center;
+  height: 31.5rem;
+  background: rgba(255, 255, 255, 0.07);
 }
 
 .nav__container {
