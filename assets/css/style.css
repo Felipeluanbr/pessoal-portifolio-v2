@@ -35,21 +35,39 @@ body {
 }
 
 .summary {
-  margin: auto;
   width: 74rem;
 }
 
 .summary__container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12.5rem;
+}
+.summary__container img {
+  width: 24rem;
 }
 
-.summary__container h1 {
+.summary__text {
+  width: 45rem;
+}
+.summary__text h1 {
   font-size: 5rem;
   font-weight: 700;
   color: #808080;
 }
-.summary__container h1 span {
+.summary__text h1 span {
   color: #FFFFFF;
+}
+.summary__text p {
+  font-size: 1.5rem;
+  color: #808080;
+  margin-top: 3.75rem;
+}
+.summary__text .summary__buttons {
+  display: flex;
+  margin-top: 3.75rem;
+  gap: 2.25rem;
 }
 
 .nav__container {
