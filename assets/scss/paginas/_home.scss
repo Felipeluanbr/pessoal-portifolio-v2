@@ -104,12 +104,24 @@ body {
 
   .conheca__grade {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0fr 1fr;
+    gap: 1rem;
+    justify-content: center;
   }
 
   .conheca__card {
     text-align: center;
     height: 31.5rem;
+    width: 38rem;
     background: $white-7;
+     position: relative;
+     border-radius: 2rem;
+
+
+    .conheca__image{
+      width: 100%;
+      bottom: 0;
+      position: relative;
+    }
   }
 }
