@@ -8,46 +8,81 @@ body {
 }
 
 .summary {
-//   margin: auto;
+  //   margin: auto;
   width: 74rem;
-}
 
-.summary__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 12.5rem;
+  .summary__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12.5rem;
 
-  img {
-    width: 24rem;
-  }
-
-}
-
-.summary__text {
- 
-    width: 45rem;
-
-  h1 {
-    font-size: $font-size-80;
-    font-weight: $font-weight-bold;
-    color: $dark-gray;
-
-    span {
-      color: $wite;
+    img {
+      width: 24rem;
     }
   }
 
-  p{
-    font-size: $font-size-24;
-     color: $dark-gray;
-     margin-top: 3.75rem;
+  .summary__text {
+    width: 45rem;
 
+    h1 {
+      font-size: $font-size-80;
+      font-weight: $font-weight-bold;
+      color: $dark-gray;
+
+      span {
+        color: $wite;
+      }
+    }
+
+    p {
+      font-size: $font-size-24;
+      color: $dark-gray;
+      margin-top: 3.75rem;
+    }
+
+    .summary__buttons {
+      display: flex;
+      margin-top: 3.75rem;
+      gap: 2.25rem;
+    }
   }
+}
 
-  .summary__buttons{
-    display: flex;
-     margin-top: 3.75rem;
-     gap: 2.25rem;
+.projects {
+  width: 74rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .projects__container {
+    .card {
+      width: 74rem;
+      border-radius: 2rem;
+      background: $white-7;
+      display: flex;
+      padding: 3rem 0rem 0rem 3rem;
+      border: solid 0.1rem $card-border;
+
+      .card__text img {
+        width: 4.3rem;
+      }
+
+      .card__text h3 {
+        font-size: $font-size-32;
+        color: $wite;
+      }
+      .card__text p {
+        font-size: $font-size-18;
+        color: $dark-gray;
+        height: 14rem;
+      }
+
+      .card__text a{
+        font-size: $font-size-20;
+        color: $wite;
+        
+      }
+    }
   }
 }
