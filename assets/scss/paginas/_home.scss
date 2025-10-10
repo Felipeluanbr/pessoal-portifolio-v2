@@ -103,6 +103,14 @@ body {
   width: 74rem;
 
   .conheca__container {
+
+    h2{
+      font-size: $font-size-48;
+      font-weight: $font-weight-bold;
+      color: $wite;
+      margin-bottom: 4rem;
+
+    }
     .conheca__grade {
       display: grid;
       grid-template-columns: 0fr 1fr;

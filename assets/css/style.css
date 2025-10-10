@@ -317,6 +317,12 @@ body {
 .conheca {
   width: 74rem;
 }
+.conheca .conheca__container h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 4rem;
+}
 .conheca .conheca__container .conheca__grade {
   display: grid;
   grid-template-columns: 0fr 1fr;
