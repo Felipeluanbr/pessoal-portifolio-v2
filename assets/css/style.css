@@ -359,6 +359,31 @@ body {
   bottom: 0;
 }
 
+.cta {
+  width: 74rem;
+  margin: 7rem 0rem 12rem 0rem;
+}
+.cta .cta__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cta .cta__container .cta__text h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.cta .cta__container .cta__text p {
+  font-size: 1.125rem;
+  color: #808080;
+  margin-top: 1rem;
+}
+.cta .cta__container button {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
 .nav__container {
   align-items: center;
   display: flex;

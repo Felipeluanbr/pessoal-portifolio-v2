@@ -158,3 +158,38 @@ body {
     }
   }
 }
+
+.cta{
+  width: 74rem;
+  margin: 7rem 0rem 12rem 0rem;
+
+  .cta__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .cta__text {
+
+      h2{
+      font-size: $font-size-48;
+      font-weight: $font-weight-bold;
+      color: $wite;
+    }
+
+    p{
+      font-size: $font-size-18;
+      color: $dark-gray;
+      margin-top: 1rem;
+
+    }
+  }
+
+  button{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+  }
+
+}
+}
