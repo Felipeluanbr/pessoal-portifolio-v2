@@ -1,14 +1,17 @@
-body {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  
-}
+
+
+@import "base/reset";
+@import "base/normalize";
 
 @import "base/variaveis";
 @import "paginas/home";
 @import "layout/navbar";
 @import "layout/footer";
-@import "base/reset";
-@import "base/normalize";
+
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}

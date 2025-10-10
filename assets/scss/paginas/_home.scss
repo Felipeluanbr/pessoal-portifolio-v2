@@ -102,6 +102,17 @@ body {
 .conheca {
   width: 74rem;
 
+  .conheca__container h2 {
+    display: block;
+    color: $wite  ;
+
+    font-size: $font-size-48;
+    font-weight: $font-weight-bold;;
+  }
+
+  a {
+  }
+
   .conheca__grade {
     display: grid;
     grid-template-columns: 0fr 1fr;
@@ -111,17 +122,39 @@ body {
 
   .conheca__card {
     text-align: center;
-    height: 31.5rem;
+    height: 38rem;
     width: 38rem;
     background: $white-7;
-     position: relative;
-     border-radius: 2rem;
+    position: relative;
+    border-radius: 2rem;
 
+    a {
+      text-decoration: none;
+      color: $wite;
+      display: block;
+    }
 
-    .conheca__image{
+    .conheca__text {
+      h3 {
+        font-size: $font-size-32;
+        font-weight: $font-weight-bold;
+      }
+    }
+
+    p{
+      font-size: $font-size-18;
+      color: $dark-gray;;
+    }
+
+    .conheca__image {
       width: 100%;
+      height: 60%;
       bottom: 0;
       position: relative;
     }
+  }
+
+  .conheca__card a {
+    display: block;
   }
 }
