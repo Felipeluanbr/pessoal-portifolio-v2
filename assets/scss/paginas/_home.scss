@@ -102,59 +102,59 @@ body {
 .conheca {
   width: 74rem;
 
-  .conheca__container h2 {
-    display: block;
-    color: $wite  ;
+  .conheca__container {
+    .conheca__grade {
+      display: grid;
+      grid-template-columns: 0fr 1fr;
+      gap: 1rem;
+      justify-content: center;
 
-    font-size: $font-size-48;
-    font-weight: $font-weight-bold;;
-  }
+      .conheca__card {
+        display: flex;
+        flex-direction: column;
+        color: inherit;
+        background: $white-7;
+        border-radius: 2rem;
+        width: 38rem;
+        height: 38rem;
+        text-align: center;
+        justify-content: space-between;
 
-  a {
-  }
+        .conheca__text {
+          h3 {
+            font-size: $font-size-32;
+            color: $wite;
+            font-weight: $font-weight-bold;
+            margin: 3.75rem 0rem 0rem 0rem;
+            width: 90%;
 
-  .conheca__grade {
-    display: grid;
-    grid-template-columns: 0fr 1fr;
-    gap: 1rem;
-    justify-content: center;
-  }
+            
+          }
 
-  .conheca__card {
-    text-align: center;
-    height: 38rem;
-    width: 38rem;
-    background: $white-7;
-    position: relative;
-    border-radius: 2rem;
+          p {
+            font-size: $font-size-18;
+            color: $dark-gray;
+            width: 90%;
+            margin: 1rem 0rem 0rem 0rem;
+          }
+        }
 
-    a {
-      text-decoration: none;
-      color: $wite;
-      display: block;
-    }
+        .conheca__image {
+          width: 100%;
+          height: 60%;
+          position: relative;
+         
 
-    .conheca__text {
-      h3 {
-        font-size: $font-size-32;
-        font-weight: $font-weight-bold;
+          img {
+            width: 100%;
+            height: 100%;
+            
+            object-fit: cover;
+             bottom: 0;
+             
+          }
+        }
       }
     }
-
-    p{
-      font-size: $font-size-18;
-      color: $dark-gray;;
-    }
-
-    .conheca__image {
-      width: 100%;
-      height: 60%;
-      bottom: 0;
-      position: relative;
-    }
-  }
-
-  .conheca__card a {
-    display: block;
   }
 }

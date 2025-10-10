@@ -317,47 +317,46 @@ body {
 .conheca {
   width: 74rem;
 }
-.conheca .conheca__container h2 {
-  display: block;
-  color: #FFFFFF;
-  font-size: 3rem;
-  font-weight: 700;
-}
-.conheca .conheca__grade {
+.conheca .conheca__container .conheca__grade {
   display: grid;
   grid-template-columns: 0fr 1fr;
   gap: 1rem;
   justify-content: center;
 }
-.conheca .conheca__card {
-  text-align: center;
-  height: 38rem;
-  width: 38rem;
+.conheca .conheca__container .conheca__grade .conheca__card {
+  display: flex;
+  flex-direction: column;
+  color: inherit;
   background: rgba(255, 255, 255, 0.07);
-  position: relative;
   border-radius: 2rem;
+  width: 38rem;
+  height: 38rem;
+  text-align: center;
+  justify-content: space-between;
 }
-.conheca .conheca__card a {
-  text-decoration: none;
-  color: #FFFFFF;
-  display: block;
-}
-.conheca .conheca__card .conheca__text h3 {
+.conheca .conheca__container .conheca__grade .conheca__card .conheca__text h3 {
   font-size: 2rem;
+  color: #FFFFFF;
   font-weight: 700;
+  margin: 3.75rem 0rem 0rem 0rem;
+  width: 90%;
 }
-.conheca .conheca__card p {
+.conheca .conheca__container .conheca__grade .conheca__card .conheca__text p {
   font-size: 1.125rem;
   color: #808080;
+  width: 90%;
+  margin: 1rem 0rem 0rem 0rem;
 }
-.conheca .conheca__card .conheca__image {
+.conheca .conheca__container .conheca__grade .conheca__card .conheca__image {
   width: 100%;
   height: 60%;
-  bottom: 0;
   position: relative;
 }
-.conheca .conheca__card a {
-  display: block;
+.conheca .conheca__container .conheca__grade .conheca__card .conheca__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  bottom: 0;
 }
 
 .nav__container {
