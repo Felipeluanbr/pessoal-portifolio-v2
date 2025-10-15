@@ -1,0 +1,99 @@
+.projetos {
+  width: 74rem;
+  font-family: "Inter", sans-serif;
+  color: $dark-gray;
+
+  .projetos__container {
+    h1 {
+      font-size: $font-size-80;
+      font-weight: $font-weight-bold;
+      color: $wite;
+      margin: 0;
+      padding: 0;
+      margin-top: 12.5rem;
+    }
+    h2 {
+      font-size: $font-size-24;
+      margin-top: 1.5rem;
+    }
+
+    .projeto__grade {
+      margin-top: 7.5rem;
+      
+
+      .projeto__card {
+        border: 0.1rem solid $card-border;
+        border-radius: 2rem;
+        display: flex;
+        padding: 3rem 0rem 0rem 3rem;
+        margin-bottom: 4rem;
+
+        .projeto__text {
+          img {
+            width: 4.3rem;
+          }
+          h3 {
+            font-size: $font-size-32;
+            font-weight: $font-weight-bold;
+            color: $wite;
+            margin-top: 1rem;
+          }
+
+          p {
+            font-size: $font-size-18;
+            color: $dark-gray;
+            height: 14rem;
+            margin-top: 1rem;
+          }
+
+          a {
+            font-size: $font-size-20;
+            color: $wite;
+            margin-top: 1rem;
+          }
+        }
+      }
+
+      .projeto__cta {
+       
+        border: 0.1rem solid transparent;
+        border-radius: 2rem;
+        padding: 2rem;
+
+       
+        background:
+        
+          linear-gradient(to right, $card-border 1rem, transparent 1rem) 0 0 / 1.5rem 0.1rem repeat-x, // Top
+          linear-gradient(to right, $card-border 1rem, transparent 1rem) 0 100% / 1.5rem 0.1rem repeat-x, // Bottom
+          linear-gradient(to bottom, $card-border 1rem, transparent 1rem) 0 0 / 0.1rem 1.5rem repeat-y, // Left
+          linear-gradient(to bottom, $card-border 1rem, transparent 1rem) 100% 0 / 0.1rem 1.5rem repeat-y; // Right
+        background-clip: padding-box; 
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 35rem;
+        justify-content: center;
+
+        img {
+          margin-bottom: 1rem;
+        }
+
+        h2 {
+          font-size: $font-size-32;
+          color: $wite;
+          font-weight: $font-weight-bold;
+          margin-top: 1rem;
+        }
+        h3 {
+          font-size: $font-size-18;
+          margin-top: 1rem;
+        }
+
+        button {
+          margin-top: 5rem;
+        }
+      }
+    }
+  }
+}

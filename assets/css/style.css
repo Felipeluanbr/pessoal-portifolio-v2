@@ -579,6 +579,82 @@ footer {
   bottom: 0;
 }
 
+.projetos {
+  width: 74rem;
+  font-family: "Inter", sans-serif;
+  color: #808080;
+}
+.projetos .projetos__container h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  margin-top: 12.5rem;
+}
+.projetos .projetos__container h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+.projetos .projetos__container .projeto__grade {
+  margin-top: 7.5rem;
+}
+.projetos .projetos__container .projeto__grade .projeto__card {
+  border: 0.1rem solid #383737;
+  border-radius: 2rem;
+  display: flex;
+  padding: 3rem 0rem 0rem 3rem;
+  margin-bottom: 4rem;
+}
+.projetos .projetos__container .projeto__grade .projeto__card .projeto__text img {
+  width: 4.3rem;
+}
+.projetos .projetos__container .projeto__grade .projeto__card .projeto__text h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-top: 1rem;
+}
+.projetos .projetos__container .projeto__grade .projeto__card .projeto__text p {
+  font-size: 1.125rem;
+  color: #808080;
+  height: 14rem;
+  margin-top: 1rem;
+}
+.projetos .projetos__container .projeto__grade .projeto__card .projeto__text a {
+  font-size: 1.25rem;
+  color: #FFFFFF;
+  margin-top: 1rem;
+}
+.projetos .projetos__container .projeto__grade .projeto__cta {
+  border: 0.1rem solid transparent;
+  border-radius: 2rem;
+  padding: 2rem;
+  background: linear-gradient(to right, #383737 1rem, transparent 1rem) 0 0/1.5rem 0.1rem repeat-x, linear-gradient(to right, #383737 1rem, transparent 1rem) 0 100%/1.5rem 0.1rem repeat-x, linear-gradient(to bottom, #383737 1rem, transparent 1rem) 0 0/0.1rem 1.5rem repeat-y, linear-gradient(to bottom, #383737 1rem, transparent 1rem) 100% 0/0.1rem 1.5rem repeat-y;
+  background-clip: padding-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 35rem;
+  justify-content: center;
+}
+.projetos .projetos__container .projeto__grade .projeto__cta img {
+  margin-bottom: 1rem;
+}
+.projetos .projetos__container .projeto__grade .projeto__cta h2 {
+  font-size: 2rem;
+  color: #FFFFFF;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+.projetos .projetos__container .projeto__grade .projeto__cta h3 {
+  font-size: 1.125rem;
+  margin-top: 1rem;
+}
+.projetos .projetos__container .projeto__grade .projeto__cta button {
+  margin-top: 5rem;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
