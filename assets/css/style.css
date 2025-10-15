@@ -655,6 +655,12 @@ footer {
   margin-top: 5rem;
 }
 
+.blog {
+  width: 74rem;
+  font-family: "Inter", sans-serif;
+  color: #808080;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
