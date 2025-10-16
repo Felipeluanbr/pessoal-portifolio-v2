@@ -660,6 +660,55 @@ footer {
   font-family: "Inter", sans-serif;
   color: #808080;
 }
+.blog .blog__container h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  margin-top: 12.5rem;
+}
+.blog .blog__container h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+.blog .blog__container .blog__dev {
+  margin-top: 10rem;
+}
+.blog .blog__container .blog__dev .dev__text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog .blog__container .blog__dev .dev__text h3 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.blog .blog__container .blog__dev .dev__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 30rem;
+  height: 30rem;
+  border: 0.1rem solid #383737;
+  border-radius: 2rem;
+  padding: 2rem;
+  position: relative;
+  bottom: 0;
+  margin-top: 5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.blog .blog__container .blog__dev .dev__card h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.blog .blog__container .blog__dev .dev__card p {
+  margin-top: 1rem;
+}
 
 body {
   font-family: "Inter", sans-serif;

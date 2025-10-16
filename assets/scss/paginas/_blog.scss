@@ -1,5 +1,71 @@
-.blog{
+.blog {
   width: 74rem;
   font-family: "Inter", sans-serif;
   color: $dark-gray;
+
+  .blog__container {
+    h1 {
+      font-size: $font-size-80;
+      font-weight: $font-weight-bold;
+      color: $wite;
+      margin: 0;
+      padding: 0;
+      margin-top: 12.5rem;
+    }
+
+    h2 {
+      font-size: $font-size-24;
+      margin-top: 1.5rem;
+    }
+
+
+    .blog__dev{
+
+        margin-top: 10rem;
+
+        .dev__text{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            h3{
+                font-size: $font-size-48;
+                font-weight: $font-weight-bold;
+                
+            }
+        }
+
+        .dev__card{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            width: 30rem;
+            height: 30rem;
+            border: 0.1rem solid $card-border;
+            border-radius: 2rem;
+            padding: 2rem;
+            position: relative;
+            bottom: 0;
+            margin-top: 5rem;
+            
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            
+
+            h3{
+                font-size: $font-size-32;
+                font-weight: $font-weight-bold;
+                color: $wite;
+                
+           
+            }
+
+            p{
+                margin-top: 1rem;
+            }
+        }
+    }
+  }
 }
