@@ -738,7 +738,23 @@ footer {
   padding: 2rem;
 }
 .note .note__conteudo {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
+  margin-top: 3rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.note .note__conteudo ol {
+  list-style: decimal;
+  padding-left: 3rem;
+  margin-top: 1.5rem;
+}
+.note .note__conteudo ol li {
+  margin-bottom: 1.5rem;
+}
+.note .note__conteudo .note__footer {
+  display: flex;
+  justify-content: left;
   margin-top: 3rem;
 }
 
