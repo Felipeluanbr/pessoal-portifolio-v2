@@ -727,9 +727,19 @@ footer {
   margin-top: 1.5rem;
 }
 .note .note__image {
+  align-items: center;
   border: solid 0.1rem #383737;
   border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 7.5rem;
   padding: 2rem;
+}
+.note .note__conteudo {
+  font-size: 1.125rem;
+  margin-top: 3rem;
 }
 
 body {
