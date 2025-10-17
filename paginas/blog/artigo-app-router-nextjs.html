@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Guia definitivo para o App Router no Next.js 13 | Blog Note</title>
+
+    <meta
+      name="description"
+      content="Aprenda tudo sobre o App Router do Next.js 13 — rotas dinâmicas, navegação, divisão de código e boas práticas explicadas de forma clara."
+    />
+    <meta name="author" content="Blog Note" />
+    <meta name="robots" content="index, follow" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- Cabeçalho -->
+    <header id="navbar"></header>
+
+    <!-- Conteúdo principal -->
+    <main class="note">
+      <article class="note__container">
+        <header class="note__header">
+          <h1>Guia definitivo para o App Router no Next.js 13</h1>
+          <p class="note__meta">
+            <time datetime="2023-07-17">17 de julho de 2023</time> —
+            <span>7 min de leitura</span>
+          </p>
+        </header>
+
+        <figure class="note__image">
+          <img
+            src="/assets/image/icons/image-artigo-app-router-nextjs.png"
+            alt="Ilustração representando o App Router no Next.js 13"
+            loading="lazy"
+          />
+          <figcaption>
+            O App Router simplifica o gerenciamento de rotas no Next.js 13
+          </figcaption>
+        </figure>
+
+        <section class="note__conteudo">
+          <p>
+            O Roteador de Aplicativos no Next.js é responsável por gerenciar o
+            roteamento do lado do cliente em sua aplicação. Ele fornece uma
+            maneira declarativa e intuitiva de definir rotas, gerenciar a
+            navegação e URLs dinâmicas.
+          </p>
+
+          <h2>Principais recursos do App Router</h2>
+          <ul>
+            <li>
+              <strong>Roteamento baseado em arquivos:</strong> cada página é um
+              arquivo dentro do diretório <code>pages</code>.
+            </li>
+            <li>
+              <strong>Rotas dinâmicas:</strong> crie rotas com colchetes (<code
+                >[ ]</code
+              >) para parâmetros dinâmicos.
+            </li>
+            <li>
+              <strong>Componente Link:</strong> navegação do lado do cliente sem
+              recarregar a página.
+            </li>
+            <li>
+              <strong>Navegação programática:</strong> utilize o hook
+              <code>useRouter</code> para redirecionamentos dinâmicos.
+            </li>
+            <li>
+              <strong>Divisão de código:</strong> o Next.js carrega apenas o que
+              é necessário para cada página.
+            </li>
+          </ul>
+
+          <p>
+            Para acompanhar as novidades, confira a
+            <a
+              href="https://nextjs.org/docs/app"
+              target="_blank"
+              rel="noopener noreferrer"
+              >documentação oficial do Next.js</a
+            >.
+          </p>
+
+          <footer class="note__footer">
+            <p>
+              Última atualização: <time datetime="2023-08-20">20/08/2023</time>
+            </p>
+          </footer>
+        </section>
+      </article>
+    </main>
+
+    <!-- Rodapé -->
+    <footer id="footer"></footer>
+
+    <script src="/assets/js/componentes/navbar.js"></script>
+    <script src="/assets/js/componentes/footer.js"></script>
+  </body>
+</html>
