@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Livros que gostei de ler | Portfólio de Felipe Luan</title>
+
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Uma seleção dos livros que Felipe Luan leu e recomenda — obras sobre tecnologia, design, autoconhecimento e desenvolvimento pessoal."
+    />
+    <meta name="author" content="Felipe Luan" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph (para redes sociais) -->
+    <meta property="og:title" content="Livros que gostei de ler | Felipe Luan" />
+    <meta
+      property="og:description"
+      content="Descubra os livros que inspiram Felipe Luan em suas jornadas de aprendizado, design e desenvolvimento."
+    />
+    <meta property="og:image" content="/assets/image/preview-livros.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://seusite.com/livros" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Livros que gostei de ler | Felipe Luan" />
+    <meta
+      name="twitter:description"
+      content="Confira os livros que marcaram o aprendizado e o crescimento pessoal de Felipe Luan."
+    />
+    <meta name="twitter:image" content="/assets/image/preview-livros.jpg" />
+
+    <!-- Ícones e CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
+    <!-- Dados estruturados (Schema.org para página pessoal de livros) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Livros que gostei de ler - Felipe Luan",
+        "description": "Lista de livros lidos e recomendados por Felipe Luan.",
+        "url": "https://seusite.com/livros",
+        "creator": {
+          "@type": "Person",
+          "name": "Felipe Luan",
+          "jobTitle": "Desenvolvedor Front-end e entusiasta de leitura",
+          "url": "https://seusite.com"
+        },
+        "hasPart": [
+          {
+            "@type": "Book",
+            "name": "O poder do hábito",
+            "author": "Charles Duhigg"
+          },
+          {
+            "@type": "Book",
+            "name": "Rápido e Devagar: Duas Formas de Pensar",
+            "author": "Daniel Kahneman"
+          }
+        ]
+      }
+    </script>
+  </head>
+
+  <body>
+    <header id="navbar"></header>
+
+    <main>
+      <section class="books">
+        <div class="books__container">
+          <h1 class="books__title">Livros que gostei de ler</h1>
+          <p class="books__intro">
+            Aqui estão alguns dos livros que li e que mais me impactaram — histórias, aprendizados e ideias que moldaram minha forma de pensar sobre tecnologia, design e vida.
+          </p>
+
+          <div class="books__grid">
+            <article class="books__card">
+              <figure class="books__image">
+                <img
+                  src="/assets/image/books/o-poder-do-habito.jpg"
+                  alt="Capa do livro 'O Poder do Hábito' de Charles Duhigg"
+                  loading="lazy"
+                />
+              </figure>
+              <div class="books__text">
+                <h2 class="books__name">O Poder do Hábito</h2>
+                <p class="books__author">Charles Duhigg</p>
+              </div>
+            </article>
+
+            <article class="books__card">
+              <figure class="books__image">
+                <img
+                  src="/assets/image/books/rapido-e-devagar.jpg"
+                  alt="Capa do livro 'Rápido e Devagar: Duas Formas de Pensar' de Daniel Kahneman"
+                  loading="lazy"
+                />
+              </figure>
+              <div class="books__text">
+                <h2 class="books__name">Rápido e Devagar</h2>
+                <p class="books__author">Daniel Kahneman</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer"></footer>
+
+    <script src="/assets/js/componentes/navbar.js"></script>
+    <script src="/assets/js/componentes/footer.js"></script>
+  </body>
+</html>
