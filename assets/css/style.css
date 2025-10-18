@@ -759,6 +759,74 @@ footer {
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.stack {
+  width: 74rem;
+  color: #808080;
+}
+.stack .stack__container .stack__title {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  margin-top: 12.5rem;
+}
+.stack .stack__container .stack__intro {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+.stack .stack__container .stack__section {
+  margin-top: 8.75rem;
+}
+.stack .stack__container .stack__section .stack__section-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.stack .stack__container .stack__section .stack__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.stack .stack__container .stack__section .stack__grid .stack__card {
+  border: solid 0.1rem #383737;
+  border-radius: 2rem;
+  height: 18rem;
+  width: 19rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  position: relative;
+}
+.stack .stack__container .stack__section .stack__grid .stack__card .stack__text {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-around;
+  bottom: 0;
+  position: absolute;
+}
+.stack .stack__container .stack__section .stack__grid .stack__card .stack__text .stack__name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.stack .stack__container .stack__section .stack__grid .stack__card .stack__text .stack__category {
+  border: solid 0.1rem #383737;
+  border-radius: 2rem;
+  padding: 0.5rem;
+}
+
+body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
