@@ -1,0 +1,46 @@
+.books{
+    width: 74rem;
+    color: $dark-gray;
+
+.books__container{
+
+
+    .books__title{
+        font-size: $font-size-80;
+        font-weight: $font-weight-bold;
+        color: $wite;
+        margin-top: 12.5rem;
+    }
+
+    .books__intro{
+        font-size: $font-size-24;
+        margin-top: 1.5rem;
+        max-width: 55rem;
+    }
+
+    .books__grid{
+        margin-top: 7.5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+
+
+        .books__card{
+            
+            .books__image{
+                height: 20rem;
+                width: 13rem;
+                object-fit: cover;
+               
+                            
+            }
+            .books__text{
+                font-size: $font-size-18;
+                margin-top: 1.5rem;
+            }
+
+        }
+    }
+    
+}
+}
