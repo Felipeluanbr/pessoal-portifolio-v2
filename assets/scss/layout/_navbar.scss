@@ -1,3 +1,4 @@
+@use "../base/variaveis" as *;
 
 .nav__container{
     align-items: center;
@@ -7,7 +8,7 @@
     padding: 1rem;
     width: 74rem;
     border-radius: 0.75rem;
-    background: rgb($onyx,50%);
+    background: rgb( $onyx ,50%);
     // opacity: 0.4;
     margin-top: 2rem;
     border: solid 0.05rem darken($card-border, 2%);

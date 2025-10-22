@@ -1,3 +1,6 @@
+@use "../base/variaveis" as *;
+
+
 body {
   display: flex;
   flex-direction: column;
@@ -104,13 +107,11 @@ body {
   width: 74rem;
 
   .conheca__container {
-
-    h2{
+    h2 {
       font-size: $font-size-48;
       font-weight: $font-weight-bold;
       color: $wite;
       margin-bottom: 4rem;
-
     }
     .conheca__grade {
       display: grid;
@@ -136,8 +137,6 @@ body {
             font-weight: $font-weight-bold;
             margin: 3.75rem 0rem 0rem 0rem;
             width: 90%;
-
-            
           }
 
           p {
@@ -152,15 +151,13 @@ body {
           width: 100%;
           height: 60%;
           position: relative;
-         
 
           img {
             width: 100%;
             height: 100%;
-            
+
             object-fit: cover;
-             bottom: 0;
-             
+            bottom: 0;
           }
         }
       }
@@ -168,37 +165,33 @@ body {
   }
 }
 
-.cta{
+.cta {
   width: 74rem;
   margin: 7rem 0rem 12rem 0rem;
 
-  .cta__container{
+  .cta__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     .cta__text {
+      h2 {
+        font-size: $font-size-48;
+        font-weight: $font-weight-bold;
+        color: $wite;
+      }
 
-      h2{
-      font-size: $font-size-48;
-      font-weight: $font-weight-bold;
-      color: $wite;
+      p {
+        font-size: $font-size-18;
+        color: $dark-gray;
+        margin-top: 1rem;
+      }
     }
 
-    p{
-      font-size: $font-size-18;
-      color: $dark-gray;
-      margin-top: 1rem;
-
+    button {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
     }
   }
-
-  button{
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-
-  }
-
-}
 }

@@ -1,19 +1,19 @@
 
 
-@import "base/reset";
-@import "base/normalize";
+@use "base/reset";
+@use "base/normalize";
 
-@import "base/variaveis";
-@import "paginas/home";
-@import "layout/navbar";
-@import "layout/footer";
-@import "paginas/sobre";
-@import "paginas/projetos";
-@import "paginas/blog";
-@import "paginas/blog/artigo-app-router-nextjs";
-@import "paginas/tecnologia";
-@import "paginas/estante-livros";
-
+@use "base/variaveis";
+@use "paginas/home";
+@use "layout/navbar";
+@use "layout/footer";
+@use "paginas/sobre";
+@use "paginas/projetos";
+@use "paginas/blog";
+@use "paginas/blog/artigo-app-router-nextjs";
+@use "paginas/tecnologia";
+@use "paginas/estante-livros";
+@use "paginas/contato";
 
 
 
