@@ -858,6 +858,15 @@ body {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #0D0D0D;
+  position: relative;
+}
+
+body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
