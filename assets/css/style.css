@@ -208,7 +208,7 @@ template {
   display: none;
 }
 
-.btn-primary {
+.btn-primary, .contact form .form-footer button {
   background-color: rgba(255, 255, 255, 0.07);
   border: none;
   border-radius: 0.8rem;
@@ -219,11 +219,11 @@ template {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-.btn-primary:hover {
+.btn-primary:hover, .contact form .form-footer button:hover {
   background-color: rgba(255, 255, 255, 0.25);
   border: #0D0D0D solid 0.1rem;
 }
-.btn-primary a {
+.btn-primary a, .contact form .form-footer button a {
   text-decoration: none;
   color: #FFFFFF;
 }
@@ -864,8 +864,146 @@ body {
   align-items: center;
   background: #0D0D0D;
   position: relative;
+  font-family: "Inter";
+  color: #FFFFFF;
 }
 
+.contact {
+  width: 74rem;
+}
+.contact h1 {
+  margin: 0;
+  font-size: 5rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-top: 12.5rem;
+}
+.contact p {
+  font-size: 1.5rem;
+  color: #808080;
+  margin-top: 1.5rem;
+}
+.contact form {
+  border: solid 0.1rem #383737;
+  border-radius: 2rem;
+  background: #181818;
+  height: 45rem;
+  margin-top: 10rem;
+}
+.contact form .window-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+}
+.contact form .window-header h2 {
+  margin-left: 25rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.contact form .window-header .line {
+  width: 100%;
+  height: 0.1rem;
+  background: #383737;
+  display: block;
+}
+.contact form .window-header .mac-ios {
+  display: flex;
+  gap: 0.2rem;
+}
+.contact form .window-header .mac-ios #red {
+  height: 0.8rem;
+  width: 0.8rem;
+  background: red;
+  border-radius: 50%;
+}
+.contact form .window-header .mac-ios #yelom {
+  height: 0.8rem;
+  width: 0.8rem;
+  background: #F6C136;
+  border-radius: 50%;
+}
+.contact form .window-header .mac-ios #green {
+  height: 0.8rem;
+  width: 0.8rem;
+  background: #68F636;
+  border-radius: 50%;
+}
+.contact form .request-email {
+  width: 100%;
+  margin: 0 3rem;
+}
+.contact form .request-email input {
+  background: transparent;
+  width: 82%;
+  border: none;
+}
+.contact form .request-email input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+.contact form .request-email input {
+  color: #808080;
+}
+.contact form .request-name {
+  width: 100%;
+  margin: 2rem 3rem;
+}
+.contact form .request-name input {
+  background: transparent;
+  width: 82%;
+  border: none;
+  color: #808080;
+}
+.contact form .request-name input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+.contact form .request-subject {
+  width: 100%;
+  margin: 2rem 3rem;
+}
+.contact form .request-subject input {
+  background: transparent;
+  border: none;
+  color: #808080;
+  width: 82%;
+}
+.contact form .request-subject input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+.contact form .request-message {
+  text-align: center;
+  border-radius: 0.8rem;
+  width: 90%;
+  height: 25rem;
+  margin: 2rem 3rem;
+  background: #0D0D0D;
+}
+.contact form .request-message textarea {
+  background: transparent;
+  width: 95%;
+  height: 90%;
+  color: #808080;
+  border: none;
+  resize: none;
+}
+.contact form .request-message textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+.contact form .form-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.5rem;
+  margin-right: 3rem;
+  margin-top: 0.5rem;
+}
+.contact form .form-footer #status-message {
+  font-size: 0.875rem;
+}
 body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;

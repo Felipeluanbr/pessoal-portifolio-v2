@@ -7,6 +7,175 @@ body {
   align-items: center;
   background: $black;
   position: relative;
+  font-family: $font-primary;
+  
 
+  color: $wite;
  
 }
+
+.contact{
+    width: 74rem;
+    
+
+    h1{
+        margin: 0;
+        font-size: $font-size-80;
+        font-weight: $font-weight-bold;
+        color: $wite;
+        margin-top: 12.5rem;
+    }
+
+    p{
+        font-size: $font-size-24;
+        color: $dark-gray;
+        margin-top: 1.5rem;
+    }
+
+    form{
+        border: solid 0.1rem $card-border;
+        border-radius: 2rem;
+        background: $onyx;
+        height: 45rem;
+        margin-top:10rem;
+
+        .window-header{
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 1rem 2rem;
+            
+            h2{
+                margin-left: 25rem;
+                font-size: $font-size-16;
+                font-weight: $font-weight-med;
+            }
+            .line{
+            width: 100%;
+            height: 0.1rem;
+            background: $card-border;
+            display: block;
+       }
+
+       .mac-ios{
+            display: flex;
+            gap: 0.2rem ;
+
+             #red{
+            height: 0.8rem;
+            width: 0.8rem;
+            background: red;
+            border-radius: 50%;
+        }
+
+        #yelom{
+            height: 0.8rem;
+            width: 0.8rem;
+            background: #F6C136;
+            border-radius: 50%;
+        }
+
+        #green{
+            height: 0.8rem;
+            width: 0.8rem;
+            background: #68F636;
+            border-radius: 50%;
+        }
+        }
+        
+     
+        }
+
+
+        .request-email{
+            width: 100%;
+            margin: 0 3rem;
+           
+
+            input{
+                background: transparent;
+                width: 82%;
+                 border: none;
+                 &:focus{
+                    outline: none;
+                    // Adiciona um brilho sutil como alternativa de foco para acessibilidade.
+                    box-shadow: 0 0 5px rgba($wite, 0.2);
+                 }
+                 color: $dark-gray;
+            }
+        }
+
+        .request-name{
+            width: 100%;
+            margin: 2rem 3rem;
+
+            input{
+                background: transparent;
+                width: 82%;
+                 border: none; 
+                 color: $dark-gray;
+                 &:focus{
+                    outline: none;
+                    box-shadow: 0 0 5px rgba($wite, 0.2);
+                 }
+            }
+        }
+
+        .request-subject{
+            width: 100%;
+            margin: 2rem 3rem;
+
+            input{
+                background: transparent;
+                 border: none;
+                  color: $dark-gray;
+                  width: 82%;
+                  &:focus{
+                    outline: none;
+                    box-shadow: 0 0 5px rgba($wite, 0.2);
+                 }
+            }
+        }
+
+        .request-message{
+            text-align: center;
+            border-radius: 0.8rem;
+            width: 90%;
+            height: 25rem;
+            margin: 2rem 3rem;
+            background: $black;
+
+            textarea{
+                background: transparent;
+                width: 95%;
+                height: 90%;
+                color: $dark-gray;
+                border: none;
+                resize: none;
+                &:focus{
+                    outline: none;
+                    box-shadow: 0 0 5px rgba($wite, 0.2);
+                 }
+
+            }
+        }
+
+        .form-footer {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 1.5rem;
+            margin-right: 3rem;
+            margin-top: 0.5rem;
+
+            #status-message {
+                font-size: $font-size-14;
+            }
+
+            button {
+                @extend .btn-primary;
+            }
+        }
+    }
+     
+}       
